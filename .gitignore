@@ -1,0 +1,57 @@
+# ==============================================================================
+# Git Ignore Rules for Labeo rohita AMP Mining Repository
+# ==============================================================================
+
+# Large FASTA databases (>100 MB exceed GitHub push limits)
+# Regenerable via: python file1.py
+Labeo_rohita_AMPs.fasta
+
+# Split directories containing multi-gigabyte/hundred-megabyte fragments
+# Regenerable via: seqkit split2 -p 3 -O splits Labeo_rohita_AMPs.fasta
+splits/
+*.fasta.part_*
+*.part_*
+
+# AMPlify / intermediate test outputs
+rohu_results/
+*.tmp
+*.log
+
+# Python bytecode and caching
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Conda / Virtual Environments
+env/
+venv/
+ENV/
+.venv/
+
+# Jupyter Notebook & Editor Artifacts
+.ipynb_checkpoints/
+.vscode/
+.idea/
+*.swp
+*~
+
+# OS metadata
+.DS_Store
+Thumbs.db
