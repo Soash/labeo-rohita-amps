@@ -10,7 +10,6 @@
 [![SeqKit](https://img.shields.io/badge/FASTA%20Toolkit-SeqKit%20v2.0+-orange.svg)](https://bioinf.shenwei.me/seqkit/)
 [![Python](https://img.shields.io/badge/Python-3.8%2B-blue.svg)](https://www.python.org/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
-[![Conference](https://img.shields.io/badge/Conference-JICIRSIGC%202026-purple.svg)](https://ju-jurs.org)
 
 ---
 
@@ -242,7 +241,6 @@ labeo-rohita-amps/
 ├── macrel_results_3/                                # Screening predictions for Partition 3
 │   ├── README.md
 │   └── macrel.out.prediction.gz                     # Gzip-compressed Macrel predictions (~83.5k hits)
-├── Md Abu Sadat Soash_In Silico Mining of AMPs from Rohu.docx  # Full conference abstract draft (JICIRSIGC 2026)
 ├── readme.txt                                       # Execution log & command history
 ├── .gitignore                                       # Git ignore rules for >100MB databases & caches
 └── README.md                                        # Comprehensive project documentation
@@ -310,8 +308,7 @@ python dedup_candidates.py
 
 If you use this dataset, pipeline, or the identified candidate sequences, please cite:
 
-> **Md Abu Sadat Soash** (2026). *In Silico Mining of Antimicrobial Peptide Candidates from the Immune Proteome of Labeo rohita Reveals a Cryptic Transferrin-Derived Peptide.* 1st JURS International Conference on Interdisciplinary Research for Sustainability, Innovation and Global Challenges (JICIRSIGC 2026). Jahangirnagar University, Savar, Dhaka-1342, Bangladesh.  
-> Department of Genetic Engineering and Biotechnology, Shahjalal University of Science and Technology, Sylhet, Bangladesh.  
+> **Md Abu Sadat Soash** (2026). *In Silico Mining of Antimicrobial Peptide Candidates from the Immune Proteome of Labeo rohita Reveals a Cryptic Transferrin-Derived Peptide.* Department of Genetic Engineering and Biotechnology, Shahjalal University of Science and Technology, Sylhet, Bangladesh.  
 > GitHub: [https://github.com/Soash/labeo-rohita-amps](https://github.com/Soash/labeo-rohita-amps)
 
 ### Inquiries

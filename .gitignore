@@ -17,6 +17,9 @@ rohu_results/
 *.tmp
 *.log
 
+# Documents & drafts
+*.docx
+
 # Python bytecode and caching
 __pycache__/
 *.py[cod]
