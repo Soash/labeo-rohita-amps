@@ -246,9 +246,6 @@ labeo-rohita-amps/
 └── README.md                                        # Comprehensive project documentation
 ```
 
-> [!NOTE]
-> The full $10,049,499$-fragment FASTA file (`Labeo_rohita_AMPs.fasta`, $540.7\text{ MB}$) and its intermediate partition splits (`splits/`, $553.7\text{ MB}$) exceed GitHub's $100\text{ MB}$ file limit. They are excluded via `.gitignore` and can be regenerated on demand from `Labeo_rohita_immune.fasta` using `file1.py` and `seqkit split2`.
-
 ---
 
 ## 6. Execution, Reproducibility & Environment Setup
